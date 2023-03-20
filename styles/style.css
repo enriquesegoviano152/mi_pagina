@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ #navbar{
+    place-content: end;
+  }
+ /*titulo*/
+ h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color:red;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+.imagen{
+    text-align: center;
+}
+/*descripcion de la pagina web */ 
+
+ p { font-family: 'Inconsolata', monospace;
+color: black;
+width: 400 px ;
+height: 400 px;
+background-color:rgb(225, 220, 245);
+margin: 20px 40px 60px 0;
+padding: 20px 20px 20px 20px;
+}
+
+
+p.text{font-family: 'Inconsolata', monospace;
+     color:darkblue;
+    font-weight: 400;
+    font-size: 20px;
+}   
+
+/*menu de navegacion */
+
+.menu {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color:bisque;
+        padding-block: 10px;
+     }
+
+.menu li {
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;
+
+     }
+.menu li a{
+    font-family: 'Inconsolata', monospace;
+    color:black;
+    font-weight: 900;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+.menu li, .menu li a:hover{
+    text-decoration: underline double;
+}
+
+
+/*medios de contacto y comunicacion */
+     footer b {
+        color:red;
+    }
+
+    /*contenido de imagenes */
+
+    img { 
+        border-radius: 30px;
+    }
+    /* diseño de contactos */
+
+    /*diseño de CONTACTO */
+
+body {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    color: #fff;
+    padding: 0 1.5em;
+    font-family: 'Inconsolata', monospace;
+}
+    .content {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5em;
+
+    }
+    .logo{
+        text-align:center ;
+        font-size: 3em;
+    }
+    .contact-wrapper {
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    }
+    .contact-wrapper > * {
+        padding: 1em;
+    }
+    .contacto-form{
+        background:#222222 ;
+    }
+    .contacto-form form{
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .contacto-form form .block{
+        grid-column: 2 / 3;
+
+    }
+    .contacto-form form p {
+        margin:0;
+        padding: 1em;
+       }
+
+       .contacto-form form button,
+       .contacto-form form input,
+       .contacto-form form textarea {
+        width: 100%;
+        padding: .7em;
+        border:none;
+        background:none;
+        outline: 0;
+        color: black;
+        border-bottom: 1px solid #d63031;
+       }
+       .contacto-form form button{
+        background: red;
+        border:0;
+        text-transform: uppercase;
+        padding: 1em;
+
+       }
+       .contacto-form form button:hover,
+       .contacto-form form button:focus {
+        background: #d63031;
+        color: #fff;
+        transition: 1s ease-out;
+        outline: 0;
+
+       }
+       .info-del-contacto h4,
+       .info-del-contacto ul,
+       .info-del-contacto p {
+        text-align: center;
+        margin: 0 0 1rem 0 ;
+       }
+       .info-del-contacto ul{
+        list-style: none;
+        padding: 0;
+       }
+       .info-del-contacto ul li {
+        padding: .5em;
+       }
+/*media quire */
+
+       @media (min-width:700px) {
+        body { 
+            padding: 0 4rem;
+        }
+        .contact-wrapper{
+            display:grid;
+
+        }
+        .contact-wrapper  > * {
+            padding: 2em;
+        } 
+        .info-del-contacto h4,
+        .info-del-contacto ul,
+        .info-del-contacto p {
+            padding: 1em;
+            text-align: left;
+        }
+
+        }
