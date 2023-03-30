@@ -13,73 +13,6 @@
     color:red;
     text-align: center;
 }
-
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
-}
-.imagen{
-    text-align: center;
-}
-/*descripcion de la pagina web */ 
-
- p { font-family: 'Inconsolata', monospace;
-color: black;
-width: 400 px ;
-height: 400 px;
-background-color:rgb(225, 220, 245);
-margin: 20px 40px 60px 0;
-padding: 20px 20px 20px 20px;
-}
-
-
-p.text{font-family: 'Inconsolata', monospace;
-     color:darkblue;
-    font-weight: 400;
-    font-size: 20px;
-}   
-
-/*menu de navegacion */
-
-.menu {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-color:bisque;
-        padding-block: 10px;
-     }
-
-.menu li {
-        display: inline-block;
-        margin-right: 10px;
-        margin-left: 10px;
-
-     }
-.menu li a{
-    font-family: 'Inconsolata', monospace;
-    color:black;
-    font-weight: 900;
-    font-size: 24px;
-    text-decoration: none;
-
-}
-.menu li, .menu li a:hover{
-    text-decoration: underline double;
-}
-
-
-/*medios de contacto y comunicacion */
-     footer b {
-        color:red;
-    }
-
-    /*contenido de imagenes */
-
-    img { 
-        border-radius: 30px;
-    }
-    /* diseño de contactos */
-
-    /*diseño de CONTACTO */
-
 body {
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     color: #fff;
@@ -179,3 +112,70 @@ body {
         }
 
         }
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+.imagen{
+    text-align: center;
+}
+/*descripcion de la pagina web */ 
+
+ p { font-family: 'Inconsolata', monospace;
+color: black;
+width: 400 px ;
+height: 400 px;
+background-color:rgb(225, 220, 245);
+margin: 20px 40px 60px 0;
+padding: 20px 20px 20px 20px;
+}
+
+
+p.text{font-family: 'Inconsolata', monospace;
+     color:darkblue;
+    font-weight: 400;
+    font-size: 20px;
+}   
+
+/*menu de navegacion */
+
+.menu {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color:bisque;
+        padding-block: 10px;
+     }
+
+.menu li {
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;
+
+     }
+.menu li a{
+    font-family: 'Inconsolata', monospace;
+    color:black;
+    font-weight: 900;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+.menu li, .menu li a:hover{
+    text-decoration: underline double;
+}
+
+
+/*medios de contacto y comunicacion */
+     footer b {
+        color:red;
+    }
+
+    /*contenido de imagenes */
+
+    img { 
+        border-radius: 30px;
+    }
+    /* diseño de contactos */
+
+    /*diseño de CONTACTO */
+
