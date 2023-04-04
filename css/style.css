@@ -1,5 +1,9 @@
+body {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
 nav {
-  background-color: steelblue;
+  background-color: slateblue;
 }
 
 .container-fluid {
@@ -9,7 +13,39 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  gap: 6em;
+}
+
+h3, h4 {
+  color: red;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+
+.titulo {
+  color: aquamarine;
+  width: 90%;
+  margin: 0 auto;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   gap: 1em;
+}
+
+.imagen:hover {
+  transform: scale(1.1);
+}
+
+.imagen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=style.css.map */
